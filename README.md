@@ -18,4 +18,4 @@ By default, the number of synthetic data will be equal to the train set (70% of 
 * If you do not choose, the default value is "GaussianCopula"
 
 ## Choosing dataset to train the Random Forest, kNN, Logistic Regression Models.
-The choices here are datasetToUse = "Synthetic", "InitialTrain", "Combined". By default, I have set datasetToUse = "Synthetic"
+The choices here are datasetToUse = "Synthetic", "InitialTrain", "Combined". By default, I have set datasetToUse = "Combined"
