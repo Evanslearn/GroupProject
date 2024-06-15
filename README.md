@@ -5,10 +5,10 @@ In this repository, we attach an ipynb, that contains the code used for data gen
 ## Choosing a Dataset
 * If you intend to use the creditcardfraud dataset, this must first be uploaded, since the file was too large to be uploaded in github (150MB). The file can be found here:
 https://drive.google.com/file/d/1yTbOW4-TF_ogj5rii_aB30LeyKFMXKDq/view?usp=sharing \
-You can then uncomment the line useCreditCardData(useFraudData = "useFraud", numberOfSyntheticRows = numberOfSyntheticRows), and choose values for the variables:
+You can then uncomment the line [initialData, df_train, df_test, useCreditCard] = useCreditCardData(useFraudData = "useFraud", numberOfSyntheticRows = "rowsLikeTrainSet"), and choose values for the variables:
   * useFraudData = "useFraud": Use this value, if you only want to create data from the fraud class. Else change this value to any other string.
   * numberOfSyntheticRows: Change this value, to show how many synthetic samples you want to create. Default string value ("rowsLikeTrainSet"), will end up creating rows equal to the original data train set.
-* If you intend to use either the Health Insurance Lead Prediction dataset, you simply need to comment the line "initialData = useCreditCardData(useFraudData = "useFraud", numberOfSyntheticRows = numberOfSyntheticRows)"
+* If you intend to use either the Health Insurance Lead Prediction dataset, you simply need to comment the line "[initialData, df_train, df_test, useCreditCard] = useCreditCardData(useFraudData = "useFraud", numberOfSyntheticRows = "rowsLikeTrainSet")"
 
 ## Number of synthetic Data:
 By default, the number of synthetic data will be equal to the train set (70% of the initial data). If you would like to change this, simply change the value of the variable numberOfSyntheticRows, to the value of choice.
