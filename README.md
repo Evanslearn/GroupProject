@@ -1,6 +1,6 @@
 # GroupProject on Synthetic Data Generation
 
-In this repository, we attach an ipynb, that contains the code used for data generation through SDV. To use it, you can simply run all cells in Google Colab, but you could also modify variables, according to the instructions:
+In this repository, we attach an ipynb, that contains the code used for data generation through SDV (Group Project SDV.ipynb). To use it, you can simply run all cells in Google Colab, but you could also modify variables, according to the instructions:
 
 ## Choosing a Dataset
 * If you intend to use the creditcardfraud dataset, this must first be uploaded, since the file was too large to be uploaded in github (150MB). The file can be found here:
@@ -19,3 +19,13 @@ By default, the number of synthetic data will be equal to the train set (70% of 
 
 ## Choosing dataset to train the Random Forest, kNN, Logistic Regression Models.
 The choices here are datasetToUse = "Synthetic", "InitialTrain", "Combined". By default, I have set datasetToUse = "Combined"
+
+# Results
+* Running the data synthesizing process gives results of metrics about the trend and pattern similarity of the original and the synthetic data, like this:
+![image](https://github.com/Evanslearn/GroupProject/assets/104510165/b573f859-e9e9-4ffd-9310-41663e91cac0)
+Note: GaussianCopula Synthesizer for Health Insurance Lead Prediction dataset.
+
+* We can also plot the distributions of Real vs Synthetic data, for any feature, and 6 example features look like this:
+![image](https://github.com/Evanslearn/GroupProject/assets/104510165/22b2838b-e028-4b71-9681-943ed95fc2e0)
+ Note: GaussianCopula Synthesizer for Health Insurance Lead Prediction dataset.
+
