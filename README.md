@@ -2,7 +2,7 @@
 
 # Synthetic Data Vault (SDV)
 
-In this repository, we attach an ipynb, that contains the code used for data generation through SDV (Group Project SDV.ipynb). To use it, you can simply run all cells in Google Colab, but you could also modify variables, according to the instructions:
+In this repository, we attach an ipynb, that contains the code used for data generation through SDV (TabularData (SDV).ipynb). To use it, you can simply run all cells in Google Colab, but you could also modify variables, according to the instructions:
 
 ### Choosing a Dataset
 * If you intend to use the creditcardfraud dataset, this must first be uploaded, since the file was too large to be uploaded in github (150MB). The file can be found here:
