@@ -24,10 +24,10 @@ The choices here are datasetToUse = "Synthetic", "InitialTrain", "Combined". By 
 
 ## Results
 * Running the data synthesizing process gives results of metrics about the trend and pattern similarity of the original and the synthetic data, like this:
-![image](https://github.com/Evanslearn/GroupProject/assets/104510165/b573f859-e9e9-4ffd-9310-41663e91cac0)
+![image](https://github.com/Evanslearn/GroupProject/assets/104510165/b573f859-e9e9-4ffd-9310-41663e91cac0) \
 Note: GaussianCopula Synthesizer for Health Insurance Lead Prediction dataset.
 
 * We can also plot the distributions of Real vs Synthetic data, for any feature, and 6 example features look like this:
-![image](https://github.com/Evanslearn/GroupProject/assets/104510165/22b2838b-e028-4b71-9681-943ed95fc2e0)
+![image](https://github.com/Evanslearn/GroupProject/assets/104510165/22b2838b-e028-4b71-9681-943ed95fc2e0) \
  Note: GaussianCopula Synthesizer for Health Insurance Lead Prediction dataset.
 
